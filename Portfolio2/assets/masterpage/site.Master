@@ -1,0 +1,100 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="site.master.cs" Inherits="Portfolio2.assets.masterpage.site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title> Shyam Patel Portfolio </title>
+
+
+    <link href="../../style/bootstrap.css" rel="stylesheet" />
+    <script src="../../Scripts/jquery-1.9.1.js"></script>
+    <link href="../../style/SiteStyle.css" rel="stylesheet" />
+    <script src="../../Scripts/bootstrap.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body >
+    <form id="form1" runat="server">
+    
+
+        
+         <!-- Page Content -->
+        <div class="container">
+            <div class="row col-md-12">
+                <div class="header">
+
+                    <div class="col-md-4 pull-left">
+                    <h1 class="logo">
+
+                       <a>
+                         Shyam Patel
+                           </a>
+                    </h1>
+                    <span class="slogan"> You are the CEO of your life, so make it wise.</span>
+                        </div>
+                    <div class="col-md-8 pull-left">
+
+                         <img src="../../images/banner.jpg"  style="width:102%" />
+                    </div>
+                </div>
+                <hr class="noscreen" />
+                <div id="nav" class="box">
+    <ul>
+      <li id="active"><a href="../../default.aspx">Home</a></li>
+      <li><a href="../../assets/pages/mywork.aspx">My Work</a></li>
+      <li><a href="../../assets/pages/Aboutme.aspx">About Me</a></li>
+      <li><a href="../../assets/pages/services.aspx">Services</a></li>
+      <li><a href="../../assets/pages/Contactme.aspx" class="nosep">Contact Me</a></li>
+    </ul>
+    <hr class="noscreen" />
+  </div>
+
+                <div id="container" class="box">
+
+                    <div id="obsah" class="content box">
+                              <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                       </asp:ContentPlaceHolder>
+             
+                        </div>
+                    <div id="panel-right" class="box panel">
+      <div id="bottom">
+        <div class="in"> <strong class="title">About Me</strong>
+          <div class="f-left about-img">
+              <img src="../../images/Shyam%20Patel.JPG" style="width:60%"/>
+            <div></div>
+          </div>
+          <p class="f-left about-me"> <em>Shyam Patel</em><br> I’m an undergraduate and creative leader with a wide knowledge for programming languages. I’ve managed to carry out tasks with minimal resources... <a href="../pages/Aboutme.aspx" class="more">MORE</a>”</p>
+          <div class="clearfix"></div>
+          <br>
+          <strong class="title">Follow Me:</strong>
+            <br /><br />
+           <a href ="https://www.facebook.com/OrSamhowulikeit"> <img src="../../images/facebook.png" /></a>
+            <a href="https://ca.linkedin.com/in/shyam-patel-59b9426b"> <img src="../../images/lin.png" /></a>
+             <a href="https://www.plus.google.com/115905033818912125128"> <img src="../../images/gplus.png" /></a>
+            <br /><br />
+            <a href="https://github.com/spate429">GitHub for projects</a>
+
+
+         </div>
+      </div>
+    </div>
+                    </div>
+
+            </div>
+             
+ <div class="row col-md-12">
+     <div class="footer">
+
+         @Copyright Shyam Patel. All rights are reserved.
+         
+     </div>
+     </div>
+     
+        
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,155 @@
+﻿body {
+    /*background : url("../images/bakimage.jpg") no-repeat;*/
+}
+
+
+
+
+.header {
+    position: relative;
+    height: 161px;
+    background: #ee8100 url(img/header.jpg) no-repeat;
+}
+.logo{
+        margin: 0;
+    line-height: 120%;
+    font-size: 230%;
+    padding: 30px 0 0 30px;
+
+}
+
+    .logo a {
+        color: #ffecd5;
+    font-weight: normal;
+    text-decoration: none;
+    }
+
+.slogan {
+    background: #e6820c;
+    color: #fff;
+    padding: 1px 5px;
+    margin-left: -6px;
+}
+
+#nav {
+}
+.box {
+    min-height: 1px;
+}
+
+
+#nav ul {
+    margin: 0 0 0 20px;
+    padding: 0;
+    list-style: none;
+}
+ul, ol {
+    display: block;
+    margin: 15px 0 15px 40px;
+}
+
+
+#nav ul li a {
+    display: block;
+    float: left;
+    padding: 15px 15px;
+    text-align: center;
+    color: #734105;
+    text-decoration: none;
+    background: url(img/nav-sep.jpg) no-repeat right 50%;
+}
+
+.noscreen {
+    display: none;
+}
+hr {
+    display: block;
+    height: 1px;
+    margin: 10px 0;
+    padding: 0;
+    border: 0 solid #CCC;
+    background: #CCC;
+    color: #CCC;
+}
+
+#container {
+    border-top: 1px solid #c1c1c1;
+}
+
+.content {
+    float: left;
+    padding: 0 0 0 0;
+    width: 840px;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.box:after {
+    display: block;
+    visibility: hidden;
+    clear: both;
+    line-height: 0;
+    font-size: 0;
+    content: ".";
+}   
+
+#panel-right {
+    float: right;
+    width: 235px;
+    background: url(img/panel-corner.jpg) no-repeat;
+}
+
+.footer {
+
+    color:#fff;
+    text-align: center;
+    margin: 0 auto;
+     background: #ee8100 url(img/header.jpg) no-repeat;
+}
+#new-article {
+    background: #f3f3f3 url(img/new.jpg) no-repeat;
+}
+
+#new-article #corner {
+    padding: 0 0 20px 0;
+    background: url(img/corner.jpg) no-repeat right bottom;
+}
+
+h2 {
+    font-size: 140%;
+    color: #734105;
+    font-weight: normal;
+    margin: 0;
+    padding: 10px 26px;
+}
+
+a:link {
+    color: #734105;
+}
+h2 a {
+    text-decoration: none;
+}
+
+.article .article-img {
+    width: 136px;
+    height: 115px;
+    position: relative;
+    left: 20px;
+    margin: 0;
+}
+.f-left {
+    float: left;
+}
+
+
+.article p {
+    color: #4e4506;
+    font-size: 85%;
+    text-align: justify;
+    padding: 0;
+    margin: 5px 10px;
+    width: 310px;
+    position: relative;
+    left: 20px;
+}
+

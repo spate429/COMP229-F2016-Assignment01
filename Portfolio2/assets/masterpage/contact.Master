@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="contact.master.cs" Inherits="Portfolio2.assets.masterpage.contact" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title> Ask Questions:</title>
+
+
+    <link href="../../style/bootstrap.css" rel="stylesheet" />
+    <script src="../../Scripts/jquery-1.9.1.js"></script>
+    <link href="../../style/SiteStyle.css" rel="stylesheet" />
+    <script src="../../Scripts/bootstrap.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+     <!-- Page Content -->
+        <div class="container">
+            <div class="row col-md-12">
+                <div class="header">
+
+                    <div class="col-md-4 pull-left">
+                    <h1 class="logo">
+
+                       <a>
+                          Shyam Patel
+                           </a>
+                    </h1>
+                    <span class="slogan"> You are the CEO of your life, so make it wise.</span>
+                        </div>
+                    <div class="col-md-8 pull-left">
+
+                         <img src="../../images/banner.jpg"  style="width:102%" />
+                    </div>
+                </div>
+                <hr class="noscreen" />
+                <div id="nav" class="box">
+    <ul>
+      <li id="active"><a href="../../default.aspx">Home</a></li>
+      <li><a href="../../assets/pages/mywork.aspx">My Work</a></li>
+      <li><a href="../../assets/pages/Aboutme.aspx">About Me</a></li>
+      <li><a href="../../assets/pages/services.aspx">Services</a></li>
+      <li><a href="../../assets/pages/Contactme.aspx" class="nosep">Contact Me</a></li>
+    </ul>
+    <hr class="noscreen" />
+  </div>
+
+                <div id="container" class="box">
+
+                    <div id="obsah" class="content box">
+                              <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                       </asp:ContentPlaceHolder>
+             
+                        </div>
+                    </div>
+                </div>
+
+            <div class="row col-md-12">
+     <div class="footer">
+
+         @Copyright Shyam Patel. All rights are reserved.
+     </div>
+     </div>
+     
+    </form>
+</body>
+</html>
